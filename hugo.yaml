@@ -1,0 +1,23 @@
+baseURL: "https://MLExplora.github.io/ML_Blog/"
+languageCode: en-us
+title: MLExplora
+theme : PaperMod
+canonifyURLs : true
+
+params:
+  mainSections:
+    - posts
+    - about
+  label:
+    iconSVG: "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' style='width:1em;height:1em;'>
+        <polygon points='12 2 2 22 12 17 22 22 12 2'/>
+        <line x1='12' y1='2' x2='12' y2='17'/>
+        <line x1='12' y1='2' x2='12' y2='17'/>
+        <line x1='12' y1='2' x2='12' y2='17'/>
+    </svg>"
+  text: "MLExplora"
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
