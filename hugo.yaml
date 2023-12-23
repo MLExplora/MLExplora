@@ -1,7 +1,7 @@
 baseURL: "https://MLExplora.github.io/MLExplora/"
 languageCode: en-us
 title: MLExplora
-theme : PaperMod
+theme : papermod
 canonifyURLs : true
 
 params:
@@ -21,3 +21,6 @@ markup:
   goldmark:
     renderer:
       unsafe: true
+
+# git clone https://github.com/MLExplora/My-PaperMod.git themes/PaperMod
+# git submodule add https://github.com/MLExplora/My-PaperMod.git themes/papermod
